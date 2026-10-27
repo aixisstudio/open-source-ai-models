@@ -45,6 +45,27 @@ _詳細なコンテンツ（リスト・リンク・説明）は保守のため�
 - [Ollama library](https://ollama.com/library) — one-command local runs
 - [Replicate](https://replicate.com/) — cloud API for open models
 
+## 🏆 Open weights leaderboard (practical)
+
+| Model | Params | License | Best at |
+|---|---|---|---|
+| Llama 3.3 70B | 70B | Llama | General |
+| Qwen 2.5 72B | 72B | Apache-ish | Coding/multilingual |
+| DeepSeek V3 | 671B MoE | MIT | Frontier-adjacent |
+| Mistral Large | 123B | Research | European option |
+| Gemma 2 27B | 27B | Gemma | Efficiency |
+| Phi-4 | 14B | MIT | Reasoning-per-param |
+
+## 🎯 Task picks
+
+| Need | Pick |
+|---|---|
+| Code | Qwen2.5-Coder 32B |
+| Vision | Qwen2-VL, Llama 3.2 Vision |
+| Math | DeepSeek-R1 distilled |
+| Tiny | Phi-4-mini, Llama 3.2 1-3B |
+| Uncensored fine-tunes | Community merges on HF |
+
 ---
 ## 貢献
 
