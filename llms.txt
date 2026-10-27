@@ -38,4 +38,14 @@ Maintained by aixisstudio. Related: Snitch (open-source app firewall). https://g
 
 ## 📦 Where to get them
 - [HuggingFace](https://huggingface.co/models) — the hub
-- [Ollama library](ht
+- [Ollama library](https://ollama.com/library) — one-command local runs
+- [Replicate](https://replicate.com/) — cloud API for open models
+
+## 🏆 Open weights leaderboard (practical)
+
+| Model | Params | License | Best at |
+|---|---|---|---|
+| Llama 3.3 70B | 70B | Llama | General |
+| Qwen 2.5 72B | 72B | Apache-ish | Coding/multilingual |
+| DeepSeek V3 | 671B MoE | MIT | Frontier-adjacent |
+| Mistral Large | 123B | Rese
