@@ -4,67 +4,65 @@
 
 Лучшие open-source ИИ-модели
 
-_Подробное содержимое (списки, ссылки, описания) ведётся на английском — разделы ниже помогут сориентироваться._
-
-## 🧠 LLMs (open weights)
-| Model | Sizes | Note |
+## ) LLM (открытые веса)
+Обсуждение Sizes | Note
 |---|---|---|
-| Llama 3.x / 4 | 1B–400B+ | Meta — the ecosystem default |
-| Qwen 2.5 / 3 | 0.5B–235B | Best multilingual & coding density |
-| DeepSeek V3/R1 | 671B MoE | Frontier reasoning, open weights |
-| Mistral / Mixtral | 7B–123B | Efficient, 🇫🇷, Apache-licensed smaller ones |
-| Gemma 2/3 | 1B–27B | Google's compact open weights |
-| Phi-4 | 14B | Microsoft — small & sharp |
+Ллама 3.x / 4 | 1B-400B + | Мета — экосистема по умолчанию |
+Qwen 2.5 / 3 | 0,5B-235B | Лучшая многоязычная и кодирующая плотность
+DeepSeek V3/R1 | 671B MoE | Пограничные рассуждения, открытые веса |
+| Mistral / Mixtral | 7B-123B | Эффективные,  , лицензированные Apache
+Gemma 2/3 | 1B-27B | Компактные открытые веса Google
+Phi-4 | 14B | Microsoft — маленький и острый
 
-## 🖼️ Image
-| Model | Note |
+##  ️ Изображение
+Модель, примечание
 |---|---|
-| Flux.1 [schnell/dev] | Black Forest Labs — open, fast, great quality |
-| SD 3.5 / SDXL | The classic base |
-| Stable Cascade | Older but capable |
-| Playground v2.5 | Aesthetic-focused |
+| Flux.1 [schnell/dev] | Лаборатории Чёрного леса — открытые, быстрые, отличного качества |
+SD 3.5 / SDXL Классическая база.
+Стабильный каскад Старый, но способный
+Игровая площадка v2.5 | Эстетически ориентированный
 
-## 🔊 Audio
-| Model | Note |
+###Аудио
+Модель, примечание
 |---|---|
-| Whisper v3 / turbo | ASR standard |
-| MusicGen | Meta music generation |
-| XTTS v2 | Voice cloning (Coqui archive) |
-| SeamlessM4T | Meta speech-to-speech translation |
+| Шепот v3/турбо | Стандарт ASR |
+Музыкальное поколение Meta Music Generation
+XTTS v2 клонирование голоса (архив Коки)
+SeamlessM4T - перевод речи на речь
 
-## 👁️ Vision / multimodal
-| Model | Note |
+##  ️ Видение / мультимодальный
+Модель, примечание
 |---|---|
-| Qwen2-VL / 2.5-VL | Strong doc/UI understanding |
-| Llava / Llava-Next | Popular VLM family |
-| InternVL | Strong multimodal |
-| SAM 2 | Segmentation for images & video |
+| Qwen2-VL / 2.5-VL | Сильное понимание doc/UI |
+Llava / Llava-Next | Популярное семейство VLM
+[править] Сильная мультимодальность
+| SAM 2 | Сегментация изображений и видео
 
-## 📦 Where to get them
-- [HuggingFace](https://huggingface.co/models) — the hub
-- [Ollama library](https://ollama.com/library) — one-command local runs
-- [Replicate](https://replicate.com/) — cloud API for open models
+### Где их взять
+- [HuggingFace] (https://huggingface.co/models) - концентратор
+- [Библиотека Олламы] (https://ollama.com/library) - однокомандные локальные прогоны
+[Replicate] (https://replicate.com/) — облачный API для открытых моделей
 
-## 🏆 Open weights leaderboard (practical)
+## ) Открытая таблица весов (практическая)
 
-| Model | Params | License | Best at |
+Модель, Парамс, Лицензия, Лучшее в
 |---|---|---|---|
-| Llama 3.3 70B | 70B | Llama | General |
-| Qwen 2.5 72B | 72B | Apache-ish | Coding/multilingual |
-| DeepSeek V3 | 671B MoE | MIT | Frontier-adjacent |
-| Mistral Large | 123B | Research | European option |
-| Gemma 2 27B | 27B | Gemma | Efficiency |
-| Phi-4 | 14B | MIT | Reasoning-per-param |
+3.3 70B | 70B | Llama | General |
+| Qwen 2.5 72B | 72B | Apache-ish | Кодирование/многоязычное |
+DeepSeek V3 | 671B MoE | MIT | Frontier-adjacent |
+| Mistral Large | 123B | Исследования | Европейский вариант
+Gemma 2 27B | 27B | Gemma | Эффективность
+Phi-4 | 14B | MIT | Reasoning-per-param |
 
-## 🎯 Task picks
+###Выбор задач
 
-| Need | Pick |
+Оригинальное название: Need | Pick
 |---|---|
-| Code | Qwen2.5-Coder 32B |
-| Vision | Qwen2-VL, Llama 3.2 Vision |
-| Math | DeepSeek-R1 distilled |
-| Tiny | Phi-4-mini, Llama 3.2 1-3B |
-| Uncensored fine-tunes | Community merges on HF |
+Код Qwen2.5-Coder 32B
+Qwen2-VL, Llama 3.2 Видение.
+Дистилляция DeepSeek-R1
+| Крошечные | Phi-4-mini, Llama 3.2 1-3B |
+| Без цензуры тонкой настройки | Сообщество сливается на HF |
 
 ---
 ## Участие
