@@ -4,67 +4,65 @@
 
 最高のオープンソース AI モデル
 
-_詳細なコンテンツ（リスト・リンク・説明）は保守のため英語です。以下のセクションがガイドになります。_
-
-## 🧠 LLMs (open weights)
-| Model | Sizes | Note |
+## 🧠 LLM(オープン重量)
+| モデル | サイズ | ノート |
 |---|---|---|
-| Llama 3.x / 4 | 1B–400B+ | Meta — the ecosystem default |
-| Qwen 2.5 / 3 | 0.5B–235B | Best multilingual & coding density |
-| DeepSeek V3/R1 | 671B MoE | Frontier reasoning, open weights |
-| Mistral / Mixtral | 7B–123B | Efficient, 🇫🇷, Apache-licensed smaller ones |
-| Gemma 2/3 | 1B–27B | Google's compact open weights |
-| Phi-4 | 14B | Microsoft — small & sharp |
+| Llama 3.x/4 | 1B～400B+ | メタ — 生態系のデフォルト |
+| Qwen 2.5 / 3 | 0.5B–235B | 多言語・コーディング密度のベスト |
+| DeepSeek V3/R1 | 671B モア | フロンティア推論・オープンウェイト |
+| Mistral / Mixtral | 7B–123B | 効率的で、Apacheライセンスの小さいもの |
+| ジェムマ2/3 | 1B～27B | Googleのコンパクトオープン重量 |
+| Phi-4 | 14B | マイクロソフト・スモール・シャープ |
 
-## 🖼️ Image
-| Model | Note |
+## 中国の画像
+| モデル | ノート |
 |---|---|
-| Flux.1 [schnell/dev] | Black Forest Labs — open, fast, great quality |
-| SD 3.5 / SDXL | The classic base |
-| Stable Cascade | Older but capable |
-| Playground v2.5 | Aesthetic-focused |
+| Flux.1【シュネル/デベロッパー】 | ブラックフォレストラボ - 営業・高速・高品質 |
+| SD 3.5/SDXL | 安全・安心 クラシックベース |
+| 安定的なカスケード | 古いものでも可 |
+| 遊び場 v2.5 | エステーフォーカス |
 
-## 🔊 Audio
-| Model | Note |
+## オーディオ
+| モデル | ノート |
 |---|---|
-| Whisper v3 / turbo | ASR standard |
-| MusicGen | Meta music generation |
-| XTTS v2 | Voice cloning (Coqui archive) |
-| SeamlessM4T | Meta speech-to-speech translation |
+| ウィスパー v3 / ターボ | ASR標準 |
+| MusicGen | メタ音楽制作 |
+| XTTS v2 | 音声クローニング |
+| シームレスM4T | メタスピーチ・ツー・スピーチ |
 
-## 👁️ Vision / multimodal
-| Model | Note |
+## ビジョン/マルチモーダル
+| モデル | ノート |
 |---|---|
-| Qwen2-VL / 2.5-VL | Strong doc/UI understanding |
-| Llava / Llava-Next | Popular VLM family |
-| InternVL | Strong multimodal |
-| SAM 2 | Segmentation for images & video |
+| Qwen2-VL / 2.5-VL | 強力なドキュメント・UIの理解 |
+| Llava/Llava-Next | 人気のVLMファミリー |
+| インターナルVL | 強力マルチモーダル |
+| SAM2 | 映像・映像のセグメント |
 
-## 📦 Where to get them
-- [HuggingFace](https://huggingface.co/models) — the hub
-- [Ollama library](https://ollama.com/library) — one-command local runs
-- [Replicate](https://replicate.com/) — cloud API for open models
+## どこでそれらを取得するか
+- [HuggingFace](https://huggingface.co/models) — ハブ
+- [オラマライブラリ](https://ollama.com/library) — ローカルラン
+- [Replicate](https://replicate.com/) — 開いたモデルのクラウドAPI
 
-## 🏆 Open weights leaderboard (practical)
+# # # # # 開いた重量のリーダーボード (練習)
 
-| Model | Params | License | Best at |
+| モデル | パラム | ライセンス | 最良 |
 |---|---|---|---|
-| Llama 3.3 70B | 70B | Llama | General |
-| Qwen 2.5 72B | 72B | Apache-ish | Coding/multilingual |
-| DeepSeek V3 | 671B MoE | MIT | Frontier-adjacent |
-| Mistral Large | 123B | Research | European option |
-| Gemma 2 27B | 27B | Gemma | Efficiency |
-| Phi-4 | 14B | MIT | Reasoning-per-param |
+| Llama 3.3 70B | 70B | Llama | 一般 |
+| Qwen 2.5 72B | 72B | Apache | コーディング・多言語 |
+| DeepSeek V3 | 671B MoE | MIT | フロンティア・アジャセント |
+| ミストラル大 | 123B | 研究 | 欧州の選択肢 |
+| ジェムマ 2 27B | 27B | 宝石 | 効率 |
+| Phi-4 | 14B | MIT | リーソンパーマ |
 
-## 🎯 Task picks
+## タスクピック
 
-| Need | Pick |
+| お問い合わせ | お問い合わせ |
 |---|---|
-| Code | Qwen2.5-Coder 32B |
-| Vision | Qwen2-VL, Llama 3.2 Vision |
-| Math | DeepSeek-R1 distilled |
-| Tiny | Phi-4-mini, Llama 3.2 1-3B |
-| Uncensored fine-tunes | Community merges on HF |
+| コード | Qwen2.5コーダ 32B |
+| ビジョン | Qwen2-VL、Llama 3.2 ビジョン |
+| 数学 | DeepSeek-R1 蒸留 |
+| 小さな | Phi-4-mini, Llama 3.2 1-3B |
+| 無修正微調整 | コミュニティが融合 |
 
 ---
 ## 貢献
