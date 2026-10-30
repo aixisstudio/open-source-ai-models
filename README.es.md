@@ -4,67 +4,65 @@
 
 Los mejores modelos de IA open source
 
-_El contenido detallado (listas, enlaces, descripciones) está en inglés por mantenibilidad — las secciones siguientes te guían._
-
-## 🧠 LLMs (open weights)
-| Model | Sizes | Note |
+## 🧠 LLMs (pesos abiertos)
+TENIDO Modelo TENIDO Tamaños TENIDO
 |---|---|---|
-| Llama 3.x / 4 | 1B–400B+ | Meta — the ecosystem default |
-| Qwen 2.5 / 3 | 0.5B–235B | Best multilingual & coding density |
-| DeepSeek V3/R1 | 671B MoE | Frontier reasoning, open weights |
-| Mistral / Mixtral | 7B–123B | Efficient, 🇫🇷, Apache-licensed smaller ones |
-| Gemma 2/3 | 1B–27B | Google's compact open weights |
-| Phi-4 | 14B | Microsoft — small & sharp |
+Silencio Llama 3.x / 4 Silencio 1B–400B+ TEN Meta — el ecosistema predeterminado TEN
+Silencio Qwen 2.5 / 3 Silencio 0.5B–235B Silencio Mejor densidad de codificación multilingüe
+← DeepSeek V3/R1 Silencio 671B MoE ← Razonamiento frontal, pesos abiertos tención
+← Mistral / Mixtral tención 7B–123B TENIDO Eficiente, 🇫 Desnutrición, Apache-licensed más pequeños ←
+Silencio Gemma 2/3 Silencio 1B–27B Silencio los pesos abiertos compactos de Google
+TEN Phi-4 TENIDO 14B ANTE Microsoft — pequeña y aguda
 
-## 🖼️ Image
-| Model | Note |
+Imagen
+Ø Modelo Silencioso Silencioso
 |---|---|
-| Flux.1 [schnell/dev] | Black Forest Labs — open, fast, great quality |
-| SD 3.5 / SDXL | The classic base |
-| Stable Cascade | Older but capable |
-| Playground v2.5 | Aesthetic-focused |
+← Flux.1 [schnell/dev] Silencio Laboratorios Forestales Negros — abierto, rápido, de gran calidad TENIDO
+← SD 3.5 / SDXL La base clásica
+Stable Cascade Silencioso Más antiguo pero capaz de soportar
+Silencio Playground v2.5 Silencio centrado en la estética
 
 ## 🔊 Audio
-| Model | Note |
+Ø Modelo Silencioso Silencioso
 |---|---|
-| Whisper v3 / turbo | ASR standard |
-| MusicGen | Meta music generation |
-| XTTS v2 | Voice cloning (Coqui archive) |
-| SeamlessM4T | Meta speech-to-speech translation |
+← Whisper v3 / turbo Silencioso ASR estándar
+Silencio MusicGen Silencio Generación de música
+Silencio XTTS v2 Silencioso clonación de voz (archivo coqui)
+← SeamlessM4T ANTE Meta speech-to-speech translation  sometida
 
-## 👁️ Vision / multimodal
-| Model | Note |
+Visión / multimodal
+Ø Modelo Silencioso Silencioso
 |---|---|
-| Qwen2-VL / 2.5-VL | Strong doc/UI understanding |
-| Llava / Llava-Next | Popular VLM family |
-| InternVL | Strong multimodal |
-| SAM 2 | Segmentation for images & video |
+Silencio Qwen2-VL / 2.5-VL Silencio Fuerte doc/UI comprensión
+Silencio Llava / Llava-Siguiente Silencio Popular VLM family  durable
+Silencio InternVL
+Silencio SAM 2 Silencioso Segmentation for images &amp; video
 
 ## 📦 Where to get them
-- [HuggingFace](https://huggingface.co/models) — the hub
-- [Ollama library](https://ollama.com/library) — one-command local runs
-- [Replicate](https://replicate.com/) — cloud API for open models
+- [HuggingFace] (https://huggingface.co/models) - el centro
+- [Biblioteca de Ollama] (https://ollama.com/library)
+- [Replicar] (https://replicate.com/) — API de nube para modelos abiertos
 
 ## 🏆 Open weights leaderboard (practical)
 
-| Model | Params | License | Best at |
+TENIDO Modelo ANTERIOR Params ANTERIGEN Licencia ANTERIOR Lo mejor en TEN
 |---|---|---|---|
-| Llama 3.3 70B | 70B | Llama | General |
-| Qwen 2.5 72B | 72B | Apache-ish | Coding/multilingual |
-| DeepSeek V3 | 671B MoE | MIT | Frontier-adjacent |
-| Mistral Large | 123B | Research | European option |
-| Gemma 2 27B | 27B | Gemma | Efficiency |
-| Phi-4 | 14B | MIT | Reasoning-per-param |
+← Llama 3.3 70B Silencio 70B Silencio
+Silencio Qwen 2.5 72B Silencio 72B Silencio Apache-ish Silencio Coding/multilingual Silencio
+Silencio DeepSeek V3 Silencio 671B MoE Silencio MIT
+Silencio Mistral Grande Silencio 123B Silencio Investigación Silencioso
+Silencio Gemma 2 27B Silencio 27B Silencio Gemma ← Eficiencia
+Silencio Phi-4 Silencio 14B Silencio MIT Silencio
 
 ## 🎯 Task picks
 
-| Need | Pick |
+← Necesidad de vida
 |---|---|
-| Code | Qwen2.5-Coder 32B |
-| Vision | Qwen2-VL, Llama 3.2 Vision |
-| Math | DeepSeek-R1 distilled |
-| Tiny | Phi-4-mini, Llama 3.2 1-3B |
-| Uncensored fine-tunes | Community merges on HF |
+Silencioso Código Silencioso Qwen2.5-Coder 32B
+Visión permanente Qwen2-VL, Llama 3.2 Visión
+← Matemáticas ocultas DeepSeek-R1 destilada
+TENIDO TENIDO Phi-4-mini, Llama 3.2 1-3B ANTE
+← Comunidad incensaria de finuras sin censura se fusiona en HF TEN
 
 ---
 ## Contribuir
