@@ -4,67 +4,65 @@
 
 最佳开源 AI 模型 — LLM、视觉、音频、多模态
 
-_详细内容（列表、链接、描述）以英文维护 — 以下章节为你指引。_
-
-## 🧠 LLMs (open weights)
-| Model | Sizes | Note |
+□ □ LLM(开放式重量)
+型号 大小 注解
 |---|---|---|
-| Llama 3.x / 4 | 1B–400B+ | Meta — the ecosystem default |
-| Qwen 2.5 / 3 | 0.5B–235B | Best multilingual & coding density |
-| DeepSeek V3/R1 | 671B MoE | Frontier reasoning, open weights |
-| Mistral / Mixtral | 7B–123B | Efficient, 🇫🇷, Apache-licensed smaller ones |
-| Gemma 2/3 | 1B–27B | Google's compact open weights |
-| Phi-4 | 14B | Microsoft — small & sharp |
+QQ Llama 3.x / 4 QQ 1B–400B+ QQ Meta — 生态系统默认 QQ
+^ Qwen 2.5 / 3 → 0.5B – 235B → 最佳多语种和编码密度 →
+边疆推理,开放权重
+米斯特尔/米斯特尔 7B–123B 高效, ,阿帕奇牌照较小的
+Gemma 2/3 1B – 27B Google的紧凑开放重量
+Phi-4 14B 微软——小和尖小 QQ
 
-## 🖼️ Image
-| Model | Note |
+# # # # 图像
+* 型号 * 注 *
 |---|---|
-| Flux.1 [schnell/dev] | Black Forest Labs — open, fast, great quality |
-| SD 3.5 / SDXL | The classic base |
-| Stable Cascade | Older but capable |
-| Playground v2.5 | Aesthetic-focused |
+• 黑森林实验室——开放、快速、优质
+SD 3.5 / SDXL | 经典基础 QQ
+稳定连锁店 老但有能力
+游戏场 v2.5 注重美学
 
-## 🔊 Audio
-| Model | Note |
+# # # 音频 # # # Audio #
+* 型号 * 注 *
 |---|---|
-| Whisper v3 / turbo | ASR standard |
-| MusicGen | Meta music generation |
-| XTTS v2 | Voice cloning (Coqui archive) |
-| SeamlessM4T | Meta speech-to-speech translation |
+~Whisper v3 / turbo ~ ASR标准~~
+|  Music  Music  Music | | | |
+XTTS v2 语音克隆(Coqui档案) QQ
+Meta 语音对语音翻译
 
-## 👁️ Vision / multimodal
-| Model | Note |
+□ □ □ 远景/多式联运
+* 型号 * 注 *
 |---|---|
-| Qwen2-VL / 2.5-VL | Strong doc/UI understanding |
-| Llava / Llava-Next | Popular VLM family |
-| InternVL | Strong multimodal |
-| SAM 2 | Segmentation for images & video |
+– Qune2-VL / 2.5-VL – 强力医生/UI 理解 – |
+Llava/Llava-Next 大众VLM家族
+强力多式联运
+SAM 2 图像和视频的分割
 
-## 📦 Where to get them
-- [HuggingFace](https://huggingface.co/models) — the hub
-- [Ollama library](https://ollama.com/library) — one-command local runs
-- [Replicate](https://replicate.com/) — cloud API for open models
+□ □ □ □ 在哪里得到他们
+- [HuggingFace] (https://huggingface.co/models)——枢纽
+- [奥拉马文库](https://ollama.com/library)——单指令本地运行
+- [复制](https://replicate.com/)——开放式模型的云API
 
-## 🏆 Open weights leaderboard (practical)
+□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□
 
-| Model | Params | License | Best at |
+{\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}最佳车型 最佳车牌
 |---|---|---|---|
-| Llama 3.3 70B | 70B | Llama | General |
-| Qwen 2.5 72B | 72B | Apache-ish | Coding/multilingual |
-| DeepSeek V3 | 671B MoE | MIT | Frontier-adjacent |
-| Mistral Large | 123B | Research | European option |
-| Gemma 2 27B | 27B | Gemma | Efficiency |
-| Phi-4 | 14B | MIT | Reasoning-per-param |
+Llama3.3 70B 70B 70B 将军 70B 70B 70B
+QQ Wen 2.5 72B ~ 72B ~ Apache-ish ~ 编码/多种语言 ~ ~
+{\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}深呼吸V3 {\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}我需要你帮忙
+Mistral Large 123B 研究欧洲方案
+Gemma 2 27B 27B Gemma 效率
+Phi-4 14B 麻省理工学院
 
-## 🎯 Task picks
+# # # # 任务选择 #
 
-| Need | Pick |
+需要选一个
 |---|---|
-| Code | Qwen2.5-Coder 32B |
-| Vision | Qwen2-VL, Llama 3.2 Vision |
-| Math | DeepSeek-R1 distilled |
-| Tiny | Phi-4-mini, Llama 3.2 1-3B |
-| Uncensored fine-tunes | Community merges on HF |
+QQ 代码 QWEN2.5-代码 32B QQ
+* 愿景 QWEN2-VL,LLAMA 3.2 愿景
+* 深层Seek-R1蒸馏*
+-4 -Mini,Llama 3.2 1 -3B - Q
+未审查的微调 社区在高频上的合并
 
 ---
 ## 贡献
