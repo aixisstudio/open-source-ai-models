@@ -4,67 +4,65 @@
 
 Les meilleurs modèles IA open source — LLM, vision, audio, multimodal
 
-_Le contenu détaillé (listes, liens, descriptions) est en anglais pour rester maintenable — les sections ci-dessous te guident._
-
-## 🧠 LLMs (open weights)
-| Model | Sizes | Note |
+Les LLM (poids ouverts)
+Modèle Tailles Remarque
 |---|---|---|
-| Llama 3.x / 4 | 1B–400B+ | Meta — the ecosystem default |
-| Qwen 2.5 / 3 | 0.5B–235B | Best multilingual & coding density |
-| DeepSeek V3/R1 | 671B MoE | Frontier reasoning, open weights |
-| Mistral / Mixtral | 7B–123B | Efficient, 🇫🇷, Apache-licensed smaller ones |
-| Gemma 2/3 | 1B–27B | Google's compact open weights |
-| Phi-4 | 14B | Microsoft — small & sharp |
+Llama 3.x / 4
+Qwen 2,5 / 3
+DeepSeek V3/R1
+Mistral / Mixtral $ 7B–123B
+Gemma 2/3:00 1B–27B=Les poids ouverts compacts de Google
+Phi-4.B. 14B. Microsoft — petit & pointu
 
-## 🖼️ Image
-| Model | Note |
+Image
+Modèle Remarque
 |---|---|
-| Flux.1 [schnell/dev] | Black Forest Labs — open, fast, great quality |
-| SD 3.5 / SDXL | The classic base |
-| Stable Cascade | Older but capable |
-| Playground v2.5 | Aesthetic-focused |
+Flux.1 [schnell/dev]
+SD 3.5 / SDXL La base classique
+Plus vieux mais capable
+Terrain de jeux v2.5/
 
-## 🔊 Audio
-| Model | Note |
+Audio
+Modèle Remarque
 |---|---|
-| Whisper v3 / turbo | ASR standard |
-| MusicGen | Meta music generation |
-| XTTS v2 | Voice cloning (Coqui archive) |
-| SeamlessM4T | Meta speech-to-speech translation |
+Whisper v3 / turbo
+MusiqueGénération de musique Meta
+XTTS v2
+Méta traduction de discours à discours
 
-## 👁️ Vision / multimodal
-| Model | Note |
+Vision / multimodale
+Modèle Remarque
 |---|---|
-| Qwen2-VL / 2.5-VL | Strong doc/UI understanding |
-| Llava / Llava-Next | Popular VLM family |
-| InternVL | Strong multimodal |
-| SAM 2 | Segmentation for images & video |
+Qwen2-VL / 2.5-VL
+Llava / Llava-Suivant
+InterneVL-Score multimodal
+SAM 2
 
-## 📦 Where to get them
-- [HuggingFace](https://huggingface.co/models) — the hub
-- [Ollama library](https://ollama.com/library) — one-command local runs
-- [Replicate](https://replicate.com/) — cloud API for open models
+Où les trouver ?
+- [HuggingFace] (https://huggingface.co/models) — le centre
+- [Bibliothèque Ollama] (https://ollama.com/library) - commandes locales
+- [Réplique](https://replicate.com/) — API cloud pour les modèles ouverts
 
-## 🏆 Open weights leaderboard (practical)
+Tableau de bord des poids ouverts (pratique)
 
-| Model | Params | License | Best at |
+Modèle de licence de params
 |---|---|---|---|
-| Llama 3.3 70B | 70B | Llama | General |
-| Qwen 2.5 72B | 72B | Apache-ish | Coding/multilingual |
-| DeepSeek V3 | 671B MoE | MIT | Frontier-adjacent |
-| Mistral Large | 123B | Research | European option |
-| Gemma 2 27B | 27B | Gemma | Efficiency |
-| Phi-4 | 14B | MIT | Reasoning-per-param |
+Llama 3.3 70B
+Codage/multilinguisme
+DeepSeek V3-
+Mistral Large.
+Gemma 2 27B
+Phi-4.B. 14B.B. MIT. Raisonnement par Param.
 
-## 🎯 Task picks
+Choix des tâches
 
-| Need | Pick |
+Besoins
 |---|---|
-| Code | Qwen2.5-Coder 32B |
-| Vision | Qwen2-VL, Llama 3.2 Vision |
-| Math | DeepSeek-R1 distilled |
-| Tiny | Phi-4-mini, Llama 3.2 1-3B |
-| Uncensored fine-tunes | Community merges on HF |
+Code Qwen2.5 Coder 32B
+Vision de Qwen2-VL, Lama 3.2 Vision
+Mathématiques DeepSeek-R1 distillé
+Tiny, Phi-4-mini, Llama, 3.2 1-3B
+La Communauté fusionne sur HF
 
 ---
 ## Contribuer
